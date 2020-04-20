@@ -18,6 +18,9 @@ class ViewController: UIViewController {
 //    time in seconds
     let eggTime = ["Soft": 3, "Medium": 4, "Hard": 5]
     
+//    instance of AudioPlayer
+    var player: AVAudioPlayer!
+    
 //    instance of timer object
     var timer = Timer()
     
@@ -27,8 +30,7 @@ class ViewController: UIViewController {
 //    total time passed
     var secondsPassed = 0
     
-//    instance of AudioPlayer
-    var player: AVAudioPlayer!
+
     
     
     
@@ -73,7 +75,7 @@ class ViewController: UIViewController {
         print(Float(secondsPassed) / Float(totalTime))
         
         
-    } else{
+    } else {
 //        reset timer
         timer.invalidate()
 //        print to text label
@@ -89,8 +91,6 @@ class ViewController: UIViewController {
         }
     
     }
-
-    
 
 }
 
