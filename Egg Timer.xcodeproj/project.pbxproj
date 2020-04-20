@@ -13,6 +13,7 @@
 		E37CAFD7244944AF0077B755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37CAFD5244944AF0077B755 /* Main.storyboard */; };
 		E37CAFD9244944B00077B755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37CAFD8244944B00077B755 /* Assets.xcassets */; };
 		E37CAFDC244944B00077B755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37CAFDA244944B00077B755 /* LaunchScreen.storyboard */; };
+		E3B51B79244D8328008547FF /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3B51B78244D8328008547FF /* B.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E37CAFD8244944B00077B755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37CAFDB244944B00077B755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E37CAFDD244944B00077B755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B51B78244D8328008547FF /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = ../../../../../../Downloads/B.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		E37CAFC3244944AF0077B755 = {
 			isa = PBXGroup;
 			children = (
+				E3B51B78244D8328008547FF /* B.wav */,
 				E37CAFCE244944AF0077B755 /* Egg Timer */,
 				E37CAFCD244944AF0077B755 /* Products */,
 			);
@@ -128,6 +131,7 @@
 				E37CAFDC244944B00077B755 /* LaunchScreen.storyboard in Resources */,
 				E37CAFD9244944B00077B755 /* Assets.xcassets in Resources */,
 				E37CAFD7244944AF0077B755 /* Main.storyboard in Resources */,
+				E3B51B79244D8328008547FF /* B.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
